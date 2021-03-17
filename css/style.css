@@ -1,0 +1,55 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Almarai', sans-serif;
+    color:#fff;
+    background: hsla(216, 100%, 4%, 1);
+    background: linear-gradient(180deg, hsla(216, 100%, 4%, 1) 0%, hsla(209, 100%, 20%, 1) 100%);
+    background: -moz-linear-gradient(180deg, hsla(216, 100%, 4%, 1) 0%, hsla(209, 100%, 20%, 1) 100%);
+    background: -webkit-linear-gradient(180deg, hsla(216, 100%, 4%, 1) 0%, hsla(209, 100%, 20%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#000814", endColorstr="#003566", GradientType=1 );
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.app{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+}
+
+#tasbiha{
+    font-size: 2rem;
+}
+
+#counts{
+    background-color: #001D3D;
+    border-radius: 50%;
+    padding:60px;
+    outline:none;
+    border: 1px solid #fff;
+    font-family: 'Almarai', sans-serif;
+    color:#fff;
+    font-size: 2rem;
+}
+
+#refresh{
+    display: none;
+    background-color: #001D3D;
+    padding: 3px 10px;
+    outline:none;
+    border: 1px solid #fff;
+    font-family: 'Almarai', sans-serif;
+    color:#fff;
+    font-size: 2rem;
+}
+
